@@ -1,0 +1,86 @@
+.about-container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-heading {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+  }
+  
+  .about-subheading {
+    font-size: 2rem;
+    color: #444;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    margin: 20px 0 20px 20px;
+    padding-left: 25px;
+    color: #444;
+    font-size: 1.1rem;
+  }
+  
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 200px; /* Reduced the card size */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%; /* Made it round */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .team-image {
+    width: 100px; /* Made image smaller */
+    height: 100px; /* Made image smaller */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .team-designation {
+    font-size: 1rem;
+    color: #777;
+    font-weight: 500;
+  }
+  
